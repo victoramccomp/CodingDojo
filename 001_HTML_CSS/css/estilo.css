@@ -1,3 +1,33 @@
 body {
-    background: red;
+    background: #cecece;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #fff;
+    min-height: 50px;
+    overflow: auto;   
+}
+
+.navbar > .title {
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.navbar > .menu {
+    float: right;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+ul {
+}
+
+li {
+
+    list-decoration: none;
 }
