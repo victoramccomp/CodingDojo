@@ -20,14 +20,17 @@ body {
 
 .navbar > .menu {
     float: right;
+    padding: 10px;
+    width: 400px;
     border: 1px solid black;
     margin-right: 50px;
 }
 
-ul {
+ul li {
+    display: inline;
 }
 
 li {
 
-    list-decoration: none;
+    list-style-type: none;
 }
