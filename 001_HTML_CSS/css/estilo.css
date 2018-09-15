@@ -1,5 +1,5 @@
 body {
-    background: #cecece;
+    background: ##FFFFFF;
     margin: 0px;
     padding: 0px;
     font-size: 20px;
@@ -18,7 +18,7 @@ p {
 }
 
 .navbar {
-    background-color: #fff;
+    background-color: #F8F8F8;
     min-height: 50px;
     overflow: auto;   
 }
@@ -35,6 +35,12 @@ p {
     padding: 10px;
     width: 400px;
     margin: 15px 50px 15px 0px;
+    border: 1px solid blue;
+}
+
+ul{
+    
+    border: 1px solid red;
 }
 
 ul li {
@@ -44,9 +50,11 @@ ul li {
 li {
 
     list-style-type: none;
+    border: 1px solid black;
+    padding: 20px;
 }
 
-.profile, .aboutus {
+.profile, .aboutus, .footer {
     background-color: #1ABC9C;
     height: auto;
     text-align: center;
@@ -57,25 +65,22 @@ li {
     border-radius: 50%;
 }
 
-.profile h2, .profile h1, .aboutus h1 {
+.profile h2, .profile h1, .aboutus h1, .footer h5 {
     margin: 0px 0px;
 }
 
-.aboutus {
+.aboutus, .footer {
     background: #474E5D;
 }
 
 .contact {
     overflow: auto;
+    
+    text-align: center;
 }
 
 .contact-column {
     float: left;
     width: 33%;
     margin: 10px 1px;
-    border: 1px solid black;
-}
-
-.contact-column img {
-    padding: 0px auto;
 }
