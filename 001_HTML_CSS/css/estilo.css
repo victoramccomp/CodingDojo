@@ -84,3 +84,9 @@ li {
     width: 33%;
     margin: 10px 1px;
 }
+
+.search-button {
+    border-radius: 5%;
+    width: 120px;
+    height: 40px;
+}
