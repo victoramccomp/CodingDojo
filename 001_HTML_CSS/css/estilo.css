@@ -36,4 +36,15 @@ li {
 .profile {
     background-color: #1ABC9C;
     height: 1000px;
+    text-align: center;
+}
+
+.profile img{
+    border-radius: 50%;
+}
+
+.profile p {
+    color: white;
+    font-size: 35px;
+    padding: 10px;
 }
