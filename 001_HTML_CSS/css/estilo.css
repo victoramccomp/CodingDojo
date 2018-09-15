@@ -2,6 +2,13 @@ body {
     background: #cecece;
     margin: 0px;
     padding: 0px;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, p {
+    display: block;
+    margin: 10px 0px;
+    padding: 0px;
 }
 
 .navbar {
@@ -33,18 +40,21 @@ li {
     list-style-type: none;
 }
 
-.profile {
+.profile, .aboutus {
     background-color: #1ABC9C;
-    height: 1000px;
+    height: auto;
     text-align: center;
+    color: white;
 }
 
 .profile img{
     border-radius: 50%;
 }
 
-.profile p {
-    color: white;
-    font-size: 35px;
-    padding: 10px;
+.profile p, .profile h1 {
+    margin: 10px 0px;
+}
+
+.aboutus {
+    background: #474E5D;
 }
