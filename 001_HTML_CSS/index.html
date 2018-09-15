@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/estilo.css">
     </head>
 
@@ -9,31 +10,30 @@
         
             <div class='menu'>
                 <ul>
-                    <li>Who</li>
-                    <li>What</li>
-                    <li>Where</Li>
+                    <li><a href="#profile">Who</a></li>
+                    <li><a href="#aboutus">What</a></li>
+                    <li><a href="#contact">Where</a></Li>
                 </ul>
 
             </div>
         </div>
 
-        <div class="profile">
+        <div id="profile" class="profile">
             <h1>Who am I?</h1>
             <img src="images/bird.jpg">
             <h1>I'm an adventurer</h1>
         </div>
 
-        <div class="aboutus">
-            <h1>Who am I?</h1>
+        <div id="aboutus" class="aboutus">
+            <h1>What am I?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-            <a href="#" class="search-button"> 
-                Search
+            
+            <a href="#">
+                <button class="search-button">Search</button>
             </a>
-
         </div>
 
-        <div class="contact">
+        <div id="contact" class="contact">
             <h1>Where to find me?</h1>
             
             <div class="contact-column">
@@ -55,6 +55,7 @@
 
         <div class='footer'>
             <h5>Bootstrap Theme Made By - CodeDojo do Vitaum</h5>
+            <a href="www.w3schools.com">www.w3schools.com</a>
         </div>
     </body>
 </html>

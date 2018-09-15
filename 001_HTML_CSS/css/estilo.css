@@ -1,8 +1,9 @@
 body {
-    background: ##FFFFFF;
+    background: #FFFFFF;
     margin: 0px;
     padding: 0px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', 'Arial';
 }
 
 h1, h2, h3, h4, h5 {
@@ -17,30 +18,30 @@ p {
     padding: 0px 50px 20px 50px;
 }
 
+a, a:active, a:hover, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
 .navbar {
     background-color: #F8F8F8;
     min-height: 50px;
-    overflow: auto;   
+    overflow: auto;
+    color: #777;
+    letter-spacing: 5px;
 }
 
-.navbar > .title {
+.navbar>.title {
     float: left;
     padding: 10px;
     margin: 15px 0px 15px 50px;
     width: 400px;
 }
 
-.navbar > .menu {
+.navbar>.menu {
     float: right;
     padding: 10px;
-    width: 400px;
     margin: 15px 50px 15px 0px;
-    border: 1px solid blue;
-}
-
-ul{
-    
-    border: 1px solid red;
 }
 
 ul li {
@@ -48,14 +49,26 @@ ul li {
 }
 
 li {
-
     list-style-type: none;
-    border: 1px solid black;
     padding: 20px;
 }
 
-.profile, .aboutus, .footer {
+.profile {
     background-color: #1ABC9C;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.aboutus {
+    background: #474E5D;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background: #474E5D;
     height: auto;
     text-align: center;
     color: white;
@@ -69,13 +82,8 @@ li {
     margin: 0px 0px;
 }
 
-.aboutus, .footer {
-    background: #474E5D;
-}
-
 .contact {
     overflow: auto;
-    
     text-align: center;
 }
 
@@ -86,7 +94,9 @@ li {
 }
 
 .search-button {
-    border-radius: 5%;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
     width: 120px;
-    height: 40px;
 }
