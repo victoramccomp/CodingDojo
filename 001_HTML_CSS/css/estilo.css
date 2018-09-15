@@ -13,17 +13,15 @@ body {
 .navbar > .title {
     float: left;
     padding: 10px;
-    margin-left: 50px;
+    margin: 15px 0px 15px 50px;
     width: 400px;
-    border: 1px solid black;
 }
 
 .navbar > .menu {
     float: right;
     padding: 10px;
     width: 400px;
-    border: 1px solid black;
-    margin-right: 50px;
+    margin: 15px 50px 15px 0px;
 }
 
 ul li {
@@ -33,4 +31,9 @@ ul li {
 li {
 
     list-style-type: none;
+}
+
+.profile {
+    background-color: #1ABC9C;
+    height: 1000px;
 }
