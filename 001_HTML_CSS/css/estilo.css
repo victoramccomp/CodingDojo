@@ -5,10 +5,16 @@ body {
     font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5 {
     display: block;
     margin: 10px 0px;
-    padding:60px 50px;
+    padding: 60px 50px;
+}
+
+p {
+    display: block;
+    margin: 10px 0px;
+    padding: 0px 50px 20px 50px;
 }
 
 .navbar {
@@ -51,10 +57,14 @@ li {
     border-radius: 50%;
 }
 
-.profile h2, .profile h1 {
-    margin: 10px 0px;
+.profile h2, .profile h1, .aboutus h1 {
+    margin: 0px 0px;
 }
 
 .aboutus {
     background: #474E5D;
+}
+
+.contact {
+    
 }
