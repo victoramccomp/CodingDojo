@@ -8,7 +8,7 @@ body {
 h1, h2, h3, h4, h5, p {
     display: block;
     margin: 10px 0px;
-    padding: 0px;
+    padding:60px 50px;
 }
 
 .navbar {
@@ -47,11 +47,11 @@ li {
     color: white;
 }
 
-.profile img{
+.profile img {
     border-radius: 50%;
 }
 
-.profile p, .profile h1 {
+.profile h2, .profile h1 {
     margin: 10px 0px;
 }
 
