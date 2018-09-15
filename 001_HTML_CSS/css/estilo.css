@@ -66,5 +66,16 @@ li {
 }
 
 .contact {
-    
+    overflow: auto;
+}
+
+.contact-column {
+    float: left;
+    width: 33%;
+    margin: 10px 1px;
+    border: 1px solid black;
+}
+
+.contact-column img {
+    padding: 0px auto;
 }
