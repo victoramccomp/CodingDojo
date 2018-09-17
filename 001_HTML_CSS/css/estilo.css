@@ -24,33 +24,31 @@ a, a:active, a:hover, a:visited {
 }
 
 .navbar {
+    display: flex;
     background-color: #F8F8F8;
-    min-height: 50px;
-    overflow: auto;
     color: #777;
     letter-spacing: 5px;
+    padding: 25px 60px;
 }
 
-.navbar>.title {
-    float: left;
-    padding: 10px;
-    margin: 15px 0px 15px 50px;
-    width: 400px;
+.navbar .title {
+    padding: 0px;
+    margin: 0px;
 }
 
-.navbar>.menu {
-    float: right;
-    padding: 10px;
-    margin: 15px 50px 15px 0px;
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/unset 
+ * Site com documentação sobre Flex Box
+ */
+.navbar .menu {
+    padding: unset;
+    margin: unset; 
+    margin-left: auto;
+    display: flex;
 }
 
-ul li {
-    display: inline;
-}
-
-li {
+.menu-item {
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 .profile {
