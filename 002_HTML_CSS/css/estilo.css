@@ -1,10 +1,10 @@
 .navbar {
     position: fixed;
     display: flex;
+    width: 100%;
 }
 
 .menuSuspenso {
-    display: flex;
     justify-content: flex-end;
 }
 
