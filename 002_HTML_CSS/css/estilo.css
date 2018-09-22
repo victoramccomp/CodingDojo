@@ -13,10 +13,10 @@
     /* border: 1px solid red; */
 }
 
-.temp {
-    height: 20000px;   
-}
-
 .banner {
     border: 1px solid red;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
