@@ -4,8 +4,13 @@
     width: 100%;
 }
 
-.menuSuspenso {
+.menu {
     justify-content: flex-end;
+    display: flex;
+}
+
+.menu-item {
+    display: inline;
 }
 
 .temp {
