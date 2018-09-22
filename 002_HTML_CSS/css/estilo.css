@@ -15,7 +15,8 @@
 
 .banner {
     border: 1px solid red;
-    background-color: grey;
+    background: url(../images/toymail-header.png) no-repeat;
+    background-size: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
