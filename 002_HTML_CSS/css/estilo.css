@@ -1,0 +1,9 @@
+.navbar {
+    position: fixed;
+    display: flex;
+}
+
+.temp {
+    height: 20000px;
+    border: 1px solid black;
+}
