@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.menuSuspenso {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .temp {
     height: 20000px;
     border: 1px solid black;
