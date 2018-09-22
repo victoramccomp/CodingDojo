@@ -1,22 +1,22 @@
 .navbar {
-    position: fixed;
+    
+    
+    width: auto;
+    border: 1px solid green;
     display: flex;
-    width: 100%;
 }
 
 .menu {
     /* justify-content: flex-end; */
-    display: flex;
     border: 1px solid blue;
 }
 
 .menu-item {
     display: inline;
     border: 1px solid red;
-    justify-content: flex-end;
 }
 
 .temp {
     height: 20000px;
-    border: 1px solid black;
+   
 }
