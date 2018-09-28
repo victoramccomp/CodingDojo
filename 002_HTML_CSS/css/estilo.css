@@ -26,5 +26,10 @@
     display: flex;
     justify-content: center;
     border: 1px solid blue;
-     
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blue;
 }
