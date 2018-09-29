@@ -10,6 +10,9 @@
 
 .menu-item {
     display: inline;
+    font-family: 'brandon_grotesque','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    padding: 10px;
     /* border: 1px solid red; */
 }
 
