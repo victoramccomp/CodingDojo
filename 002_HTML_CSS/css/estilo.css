@@ -32,18 +32,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center
 }
 
-.banner-title{
-
+.banner-title {
+    font-size: 40px;
+    font-family: 'brandon_grotesque','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    margin: 40px 0px;
 }
 
-.banner-subtitle{
-
+.banner-subtitle {
+    font-size: 20px;
+    font-family: 'brandon_grotesque','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-.banner-button{
-    
+.banner-button {
+    color: white;
+    font-size: 60px;
+    font-family: 'brandon_grotesque','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    margin: 40px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: black;
 }
 
 .buzzfeed {
