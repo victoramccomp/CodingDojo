@@ -86,4 +86,9 @@
 .features {
     display: flex;
     justify-content: space-around;
+    margin: 100px 0px;
+}
+
+.features-image {
+    transform: scale(1.2);
 }
