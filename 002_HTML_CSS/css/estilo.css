@@ -4,10 +4,6 @@
     margin: 25px 135px;
 }
 
-.menu {
-    /* border: 1px solid blue; */
-}
-
 .grow {
     transition: all .2s ease-in-out;
 }
@@ -144,4 +140,12 @@ h3 {
 
 .action a:hover {
     background: #000;
+}
+
+.slick-slider {
+    text-align: center;
+}
+
+.cloud-phone {
+    transform: scale(0.3);
 }
